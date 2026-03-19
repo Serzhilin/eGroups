@@ -1,0 +1,18 @@
+{
+    "tableName": "groups",
+    "schemaId": "550e8400-e29b-41d4-a716-446655440003",
+    "ownerEnamePath": "ename",
+    "ownedJunctionTables": [],
+    "localToUniversalMap": {
+        "name": "name",
+        "description": "description",
+        "logo": "avatarUrl",
+        "joinMode": "joinMode",
+        "inviteCode": "inviteCode",
+        "createdBy": "owner",
+        "ename": "ename",
+        "members": "users(members[].user.id),participantIds",
+        "createdAt": "createdAt",
+        "updatedAt": "updatedAt"
+    }
+}
